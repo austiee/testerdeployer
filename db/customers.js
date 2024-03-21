@@ -12,6 +12,7 @@ async function getAllCustomers(){
     }
 }
 
+
 async function getCustomerByUsername(username){
     try{
         const {rows} = await client.query(`
